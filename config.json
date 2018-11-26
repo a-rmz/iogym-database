@@ -1,0 +1,18 @@
+{
+  "dev": {
+    "driver": "pg",
+    "user": "postgres",
+    "password": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "database": "iogym"
+  },
+  "stage": {
+    "driver": "pg",
+    "user": { "ENV": "USER" },
+    "password": { "ENV": "PASS" },
+    "host": { "ENV": "HOST" },
+    "port": { "ENV": "PORT" },
+    "database": { "ENV": "DBNAME" }
+  }
+}

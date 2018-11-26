@@ -1,0 +1,5 @@
+{
+  "defaultEnv": "dev",
+  "sql-file": true,
+  "configFile": "config.json"
+}
